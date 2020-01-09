@@ -7,7 +7,7 @@
 * GAN生成对抗网络：
    * GAN
 * 强化学习：
-    * REFORCE
+    * REINFORCE
     * PPO
     * DQN
     

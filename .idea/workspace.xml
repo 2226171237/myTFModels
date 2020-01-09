@@ -4,7 +4,6 @@
     <list default="true" id="d7c3de01-1cdb-4369-bed3-25693c4202a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../myModels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myModels/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myModels/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../myModels/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myModels/dqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myModels/dqn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +307,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578306286092</updated>
-      <workItem from="1578306291110" duration="90943000" />
+      <workItem from="1578306291110" duration="91058000" />
     </task>
     <task id="LOCAL-00001" summary="add readme">
       <created>1578381701053</created>
@@ -345,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578557410420</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add readme">
+      <created>1578557839491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578557839491</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,10 +362,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add readme" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="572" y="121" key="CommitChangelistDialog2" timestamp="1578557409148">
+    <state x="572" y="121" key="CommitChangelistDialog2" timestamp="1578557838149">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="572" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578557409148" />
+    <state x="572" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578557838149" />
     <state x="740" y="269" key="FileChooserDialogImpl" timestamp="1578381249827">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -408,10 +414,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="463" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578319589158" />
-    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1578557415534">
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1578557843718">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578557415534" />
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578557843718" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1578557734935">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
