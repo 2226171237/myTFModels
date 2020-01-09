@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7c3de01-1cdb-4369-bed3-25693c4202a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../myModels/REINFORCE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myModels/ppo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myModels/dqn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myModels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myModels/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myModels/GAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../myModels/GAN.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../myModels" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ppo">
+  <component name="RunManager" selected="Python.dqn">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="myModels" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,28 +149,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="VAE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="myModels" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../myModels" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../myModels/VAE.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="myModels" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,6 +163,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myModels" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../myModels" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../myModels/dqn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dqn" />
         <item itemvalue="Python.ppo" />
         <item itemvalue="Python.REINFORCE" />
         <item itemvalue="Python.REINFORCE_tf" />
         <item itemvalue="Python.DCGAN" />
-        <item itemvalue="Python.VAE" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +307,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578306286092</updated>
-      <workItem from="1578306291110" duration="78990000" />
+      <workItem from="1578306291110" duration="88598000" />
     </task>
     <task id="LOCAL-00001" summary="add readme">
       <created>1578381701053</created>
@@ -325,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578455308284</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add readme">
+      <created>1578495933901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578495933901</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,10 +341,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add readme" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="572" y="121" key="CommitChangelistDialog2" timestamp="1578455306970">
+    <state x="572" y="121" key="CommitChangelistDialog2" timestamp="1578495932623">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="572" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578455306970" />
+    <state x="572" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578495932623" />
     <state x="740" y="269" key="FileChooserDialogImpl" timestamp="1578381249827">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -352,50 +357,50 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="780" y="231" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578381589913" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1578494094827">
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1578546928301">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578494094827" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1578494094827">
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578546928301" />
+    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1578546928301">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578494094827" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1578494094827">
+    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578546928301" />
+    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1578546928301">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578494094827" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1578494094827">
+    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578546928301" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1578546928301">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578494094827" />
-    <state width="1877" height="398" key="GridCell.Tab.1.bottom" timestamp="1578492621414">
+    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578546928301" />
+    <state width="1877" height="304" key="GridCell.Tab.1.bottom" timestamp="1578544756377">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578492621414" />
-    <state width="1877" height="398" key="GridCell.Tab.1.center" timestamp="1578492621414">
+    <state width="1877" height="304" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578544756377" />
+    <state width="1877" height="304" key="GridCell.Tab.1.center" timestamp="1578544756377">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578492621414" />
-    <state width="1877" height="398" key="GridCell.Tab.1.left" timestamp="1578492621414">
+    <state width="1877" height="304" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578544756377" />
+    <state width="1877" height="304" key="GridCell.Tab.1.left" timestamp="1578544756377">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578492621414" />
-    <state width="1877" height="398" key="GridCell.Tab.1.right" timestamp="1578492621414">
+    <state width="1877" height="304" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578544756377" />
+    <state width="1877" height="304" key="GridCell.Tab.1.right" timestamp="1578544756377">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="398" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578492621414" />
+    <state width="1877" height="304" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578544756377" />
     <state x="463" y="170" key="SettingsEditor" timestamp="1578319589158">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="463" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578319589158" />
-    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1578455314755">
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1578495940521">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578455314755" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1578471570426">
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578495940521" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1578544132630">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1578471570426" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1578544132630" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,5 +445,6 @@
     <SUITE FILE_PATH="coverage/myResnet$gym_test.coverage" NAME="REINFORCE Coverage Results" MODIFIED="1578474950131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myModels" />
     <SUITE FILE_PATH="coverage/myResnet$DCGAN.coverage" NAME="GAN Coverage Results" MODIFIED="1578450851875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myModels" />
     <SUITE FILE_PATH="coverage/myResnet$REINFORCE_tf.coverage" NAME="REINFORCE_tf Coverage Results" MODIFIED="1578471399585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Deep-Learning-with-TensorFlow-book/ch14" />
+    <SUITE FILE_PATH="coverage/myResnet$dqn.coverage" NAME="dqn Coverage Results" MODIFIED="1578546928296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myModels" />
   </component>
 </project>
