@@ -82,7 +82,7 @@ class DQN(object):
 
 
 if __name__ == '__main__':
-    EPOCHS = 1000
+    EPOCHS = 5000
     BATCH_SIZE = 32
     GAMMA = 0.98
     LEARNING_RATE = 0.0002
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     import matplotlib.pyplot as plt
 
     plt.plot(returns, 'g', alpha=0.8)
-    plt.plot(smooth_results)
+    plt.plot(smooth_results,'r')
     plt.xlabel('Epoch')
     plt.ylabel('Score')
     plt.legend(['origin score', 'smooth score'])
